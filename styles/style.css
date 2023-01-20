@@ -80,6 +80,9 @@ footer h5{
     font-size: 18px;
     color: var(--hero-secondary-text-color);
 }
+.active{
+    font-weight: bold;
+}
 .hero-main-plot{
     display: flex;
     justify-content: space-between;
@@ -158,12 +161,20 @@ footer h5{
     padding: 90px 550px;
     margin-bottom: 90px;
 }
+.main-information-locations{
+    background-color: var(--hero-secondary-text-color);    
+}
+.main-information-locations div.locations{           
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 300px;
+}
 .main-information-quote p.quote{
     color: var(--dark-color);
     font-size: 36px;
     font-family: 'RobotoLightItalic';
     text-align: start;
-}
+} 
 .main-information-quote p.signature{
     color: var(--dark-color);
     font-weight: bold;
