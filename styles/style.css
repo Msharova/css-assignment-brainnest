@@ -161,14 +161,6 @@ footer h5{
     padding: 90px 550px;
     margin-bottom: 90px;
 }
-.main-information-locations{
-    background-color: var(--hero-secondary-text-color);    
-}
-.main-information-locations div.locations{           
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0 300px;
-}
 .main-information-quote p.quote{
     color: var(--dark-color);
     font-size: 36px;
