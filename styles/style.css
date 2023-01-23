@@ -166,6 +166,7 @@ footer h5{
     font-size: 36px;
     font-family: 'RobotoLightItalic';
     text-align: start;
+    margin-bottom: 20px;
 } 
 .main-information-quote p.signature{
     color: var(--dark-color);
