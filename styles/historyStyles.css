@@ -20,10 +20,6 @@
     --hero-secondary-text-color: #E5E7EB;
     --button_color: #3882F6;
   }
-*{
-    margin: 0 auto;
-    font-family: 'RobotoRegular', sans-serif;
-}
 .main-information-locations{
     margin-bottom: 90px;
     background-color: var(--hero-secondary-text-color);    
