@@ -1,0 +1,11 @@
+  :root{
+    --dark-color: #1F2937;
+    --hero-main-text-color: #F9FAF8;
+    --hero-secondary-text-color: #E5E7EB;
+    --button_color: #3882F6;
+  }
+
+section.main-information-images-container div p strong a{
+    color: var(--button_color);
+    text-decoration: none;
+}
