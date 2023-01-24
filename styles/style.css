@@ -1,18 +1,18 @@
   @font-face {
     font-family: RobotoRegular;
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
   }
    @font-face {
     font-family: RobotoLightItalic;
-    src: url(./fonts/Roboto-LightItalic.ttf);
+    src: url(../fonts/Roboto-LightItalic.ttf);
   }
    @font-face {
     font-family: RobotoBlack;
-    src: url(./fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Black.ttf);
   }
    @font-face {
     font-family: RobotoLight;
-    src: url(./fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
   }
   :root{
     --dark-color: #1F2937;
@@ -28,13 +28,13 @@ header{
     margin-bottom: 100px;
 }
 h1{
-    font-family: 'RobotoBlack';
+    font-family: 'RobotoBlack', sans-serif;
     font-size: 48px;
     font-weight: bold;
     color: var(--hero-main-text-color);
 }
 h2{
-    font-family: 'RobotoBlack';
+    font-family: 'RobotoBlack', sans-serif;
 }
 h3{
     margin: 0 auto;
@@ -48,7 +48,7 @@ footer{
     padding: 40px 0;
 }
 footer h5{
-    font-family: 'RobotoLight';
+    font-family: 'RobotoLight', sans-serif;
 }
 .hero-main-plot p{
     font-size: 18px;
@@ -164,7 +164,7 @@ footer h5{
 .main-information-quote p.quote{
     color: var(--dark-color);
     font-size: 36px;
-    font-family: 'RobotoLightItalic';
+    font-family: 'RobotoLightItalic', sans-serif;
     text-align: start;
     margin-bottom: 20px;
 } 
