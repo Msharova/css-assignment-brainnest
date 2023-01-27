@@ -29,8 +29,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     padding: 90px 100px;
+    text-align: center;
 } 
-.main-information-locations div.locations div{           
+.main-information-locations div.locations div p.egypt-description,
+.main-information-locations div.locations div p.mesopotamia-description,
+.main-information-locations div.locations div p.china-description,
+.main-information-locations div.locations div p.india-description{           
     color: var(--dark-color);
     font-family: 'RobotoLightItalic', sans-serif;
     text-align: center;
@@ -45,4 +49,15 @@
 .main-information-locations div.locations div p{           
     font-size: 25px;
     font-family: 'RobotoBlack', sans-serif;
+}
+@media (max-width: 900px) {
+    .main-information-locations div.locations{           
+        padding: 90px 50px;
+}
+    .main-information-locations div.locations div p.egypt-description,
+    .main-information-locations div.locations div p.mesopotamia-description,
+    .main-information-locations div.locations div p.china-description,
+    .main-information-locations div.locations div p.india-description{           
+        font-size: 15px;
+  }
 }
