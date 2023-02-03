@@ -6,90 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/nobel.css">
+    <link rel="stylesheet" href="../styles/historyStyles.css">
     <title>Main CSS Project</title>
 </head>
 <body>
-    <div class="hero">
-        <header>
+    <header class="header">
             <div class="header-container">
                 <h3 class="header-logo"><a href="../index.html">AwesomeBiology</a></h3>
                 <div class="header-links-container">
                     <a href="../pages/history.html" class="header-link">History</a>
                     <a href="../pages/nobelPrises.html" class="header-link active">Nobel prises</a>
-                    <a href="../pages/education.html" class="header-link">Education</a>
+                    <a href="../pages/contacts.html" class="header-link">Contacts</a>
                 </div>
             </div>
-        </header>
+    </header>
 
-        <section class="hero-main-plot">
-            <div class="hero-main-plot-left-side">
-                <h1>The history of Nobel prises in Physiology or Medicine</h1>
-                <p>
-                    The Nobel Prize in Physiology or Medicine has been awarded 
-                    113 times to 225 Nobel Prize laureates between 1901 and 2022 
-                    Sign up to recieve new science articles every week!
-                </p>
-                <button class="hero-main-plot-button">Sign up</button>
-            </div>
-            <div class="hero-main-plot-right-side">
-                <img src="../images/nobel.jpg" alt="Photo: A big coin of Nobel prise with Alfred Nobel's image">
-            </div>
-        </section>        
-    </div>
+    <main class="main-information">
+        <section class="nobel-main-plot">
+            <img src="../images/nobel.jpg" alt="">
+            <h1>The history of Nobel prises in Physiology or Medicine</h1>
+        </section>
 
-    <div class="main-information">
-        <h2>It's unbelievable how many things we already know about life </h2>
-
-        <section class="main-information-images-container">
-            <div>
-                <img src="../images/hepatitis.jpg" alt="Photo: The image of Hepatitis C Virus">
-                <p>
-                   <strong>
-                        <a href="https://www.nobelprize.org/prizes/medicine/2020/summary/" target="_blank">The discovery of Hepatitis C</a>
-                   </strong>
-                   <br>
-                   (Harvey J. Alter, Michael Houghton, Charles M. Rice)
-                </p>
+        <section class="main-information-locations">
+            <h2 class="nobel-h2">The Nobel Prize in Physiology or Medicine has been awarded 113 times to 225 Nobel Prize laureates between 1901 and 2022</h2>
+            <div class="locations">
+                <figure>
+                    <img src="../images/hepatitis.jpg" alt="Photo: The image of Hepatitis C Virus">
+                    <figcaption>
+                        <strong>
+                            <a href="https://www.nobelprize.org/prizes/medicine/2020/summary/" target="_blank">The discovery of Hepatitis C</a>
+                        </strong>
+                        <p class="location-description">(Harvey J. Alter, Michael Houghton, Charles M. Rice)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/cancer.jpg" alt="Photo: A cancer cell ataking the body's cell image">
+                    <figcaption>
+                        <strong>
+                            <a href="https://www.nobelprize.org/prizes/medicine/2018/summary/" target="_blank">The discovery of cancer therapy</a>
+                        </strong>
+                        <p class="location-description">(James P. Allison, Tasuku Honjo)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/fertilization.jpg" alt="Photo: In vitro fertilization with the cell, needle and holder">
+                    <figcaption>
+                        <strong>
+                            <a href="https://www.nobelprize.org/prizes/medicine/2010/summary/" target="_blank">The development of in vitro fertilization</a>
+                        </strong>
+                        <p class="location-description">(Robert G. Edwards)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/pylori.jpg" alt="Photo: Helicobacter pylori bacterium">
+                    <figcaption>
+                        <strong>
+                            <a href="https://www.nobelprize.org/prizes/medicine/2005/summary/" target="_blank">The discovery of the bacterium <em>Helicobacter pylori</em></a>
+                        </strong>
+                        <p class="location-description">(Barry J. Marshall, J. Robin Warren)</p>
+                    </figcaption>
+                </figure>
             </div>
-            <div>
-                <img src="../images/cancer.jpg" alt="Photo: A cancer cell ataking the body's cell image">
-                <p>
-                    <strong>
-                        <a href="https://www.nobelprize.org/prizes/medicine/2018/summary/" target="_blank">The discovery of cancer therapy</a>
-                   </strong>
-                    <br>
-                    (James P. Allison, Tasuku Honjo)
-                </p>
-            </div>
-            <div>
-                <img src="../images/fertilization.jpg" alt="Photo: In vitro fertilization with the cell, needle and holder">
-                <p>
-                    <strong>
-                        <a href="https://www.nobelprize.org/prizes/medicine/2010/summary/" target="_blank">The development of in vitro fertilization</a>
-                   </strong>
-                    <br>
-                    (Robert G. Edwards)
-                </p>
-            </div>
-            <div>
-                <img src="../images/pylori.jpg" alt="Photo: Helicobacter pylori bacterium">
-                <p>
-                    <strong>
-                        <a href="https://www.nobelprize.org/prizes/medicine/2005/summary/" target="_blank">The discovery of the bacterium <em>Helicobacter pylori</em></a>
-                   </strong>
-                    <br>
-                    (Barry J. Marshall, J. Robin Warren)
-                </p>
-            </div>
-        </section>    
+        </section>
         
         <section class="main-information-quote">
-            <p class="quote">
+            <blockquote class="quote">
                 “Nature is man's teacher. She unfolds her treasures to his search, unseals his eye, 
                 illumes his mind, and purifies his heart; an influence breathes from all the sights 
                 and sounds of her existence.”
-            </p>
-            <p class="signature">-Alfred Nobel</p>
+            </blockquote>
+            <cite class="signature">-Alfred Nobel</cite>
         </section>
 
         <section class="main-information-call-for-action">
@@ -97,12 +83,10 @@
                 <h4>We've got your interest now?</h4>
                 <p>Sign up to recieve our articles by clicking that button right over there!</p>
             </div>  
-            <div>
-                <button>Sign up</button>
-            </div>  
-        </section>
-    </div>
-    
+            <button>Sign up</button>
+        </section>        
+    </main>
+
     <footer>
         <h5>Copyright @ 2023 AwesomeBiology</h5>
     </footer>

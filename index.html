@@ -8,18 +8,18 @@
     <title>Main CSS Project</title>
 </head>
 <body>
-    <div class="hero">
-        <header>
+    <header class="header">
             <div class="header-container">
                 <h3 class="header-logo"><a href="./index.html">AwesomeBiology</a></h3>
                 <div class="header-links-container">
                     <a href="./pages/history.html" class="header-link">History</a>
                     <a href="./pages/nobelPrises.html" class="header-link">Nobel prises</a>
-                    <a href="./pages/education.html" class="header-link">Education</a>
+                    <a href="./pages/contacts.html" class="header-link">Contacts</a>
                 </div>
             </div>
-        </header>
+    </header>
 
+    <main class="main-information">
         <section class="hero-main-plot">
             <div class="hero-main-plot-left-side">
                 <h1>Biology is everywhere around you</h1>
@@ -30,58 +30,64 @@
                 </p>
                 <button class="hero-main-plot-button">Sign up</button>
             </div>
-            <div class="hero-main-plot-right-side">
-                <img src="./images/biology.jpg" alt="Photo: Sunlight through the green leaf and the frog on it">
-            </div>
-        </section>        
-    </div>
+            <img class="hero-main-plot-right-side" src="./images/biology.jpg" alt="Photo: Sunlight through the green leaf and the frog on it">
+        </section>
 
-    <div class="main-information">
-        <h2>Biology knowledge helps you understand</h2>
+        <section class="main-information-content">
+            <h2>Biology knowledge helps you understand</h2>
 
-        <section class="main-information-images-container">
-            <div>
-                <img src="./images/ecology.jpg" alt="Photo: Man's hand holding a small plant on the black background">
-                <p>
-                   <strong>Ecology</strong>
-                   <br>
-                   (and how you can help everyday)
-                </p>
-            </div>
-            <div>
-                <img src="./images/animals.jpg" alt="Photo: A colorful orange, white and blue parrot on black background">
-                <p>
-                    <strong>Animals</strong>
-                    <br>
-                    (your little ones and wild animals)
-                </p>
-            </div>
-            <div>
-                <img src="./images/psychology.jpg" alt="Photo: Woman holding her hands near the face under the lamp on black background">
-                <p>
-                    <strong>Psychology</strong>
-                    <br>
-                    (have you heard about hormones?)
-                </p>
-            </div>
-            <div>
-                <img src="./images/health.jpg" alt="Photo: A blurred man in medical mask showing thumbs up">
-                <p>
-                    <strong>Your health</strong>
-                    <br>
-                    (how to feel better everyday)
-                </p>
+            <div class="main-information-images-container">
+                <figure>
+                    <img src="./images/ecology.jpg" alt="Photo: Man's hand holding a small plant on the black background">
+                    <figcaption>
+                        <p>
+                        <strong>Ecology</strong>
+                        <br>
+                        (and how you can help everyday)
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/animals.jpg" alt="Photo: A colorful orange, white and blue parrot on black background">
+                    <figcaption>
+                        <p>
+                            <strong>Animals</strong>
+                            <br>
+                            (your little ones and wild animals)
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/psychology.jpg" alt="Photo: Woman holding her hands near the face under the lamp on black background">
+                    <figcaption>
+                        <p>
+                            <strong>Psychology</strong>
+                            <br>
+                            (have you heard about hormones?)
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/health.jpg" alt="Photo: A blurred man in medical mask showing thumbs up">
+                    <figcaption>
+                        <p>
+                            <strong>Your health</strong>
+                            <br>
+                            (how to feel better everyday)
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </section>    
         
         <section class="main-information-quote">
-            <p class="quote">
+            <blockquote class="quote">
                 “I cannot think of a single field in biology or medicine 
                 in which we can claim genuine understanding, and it seems 
                 to me the more we learn about living creatures, especially 
                 ourselves, the stranger life becomes.”
-            </p>
-            <p class="signature">-Lewis Thomas</p>
+            </blockquote>
+            <cite class="signature">-Lewis Thomas</cite>
         </section>
 
         <section class="main-information-call-for-action">
@@ -89,11 +95,9 @@
                 <h4>We've got your interest now?</h4>
                 <p>Sign up to recieve our articles by clicking that button right over there!</p>
             </div>  
-            <div>
-                <button>Sign up</button>
-            </div>  
+            <button>Sign up</button>
         </section>        
-    </div>
+    </main>
 
     <footer>
         <h5>Copyright @ 2023 AwesomeBiology</h5>

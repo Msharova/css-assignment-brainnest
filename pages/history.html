@@ -9,119 +9,79 @@
     <title>Main CSS Project</title>
 </head>
 <body>
-    <div class="hero">
-        <header>
+    <header class="header">
             <div class="header-container">
                 <h3 class="header-logo"><a href="../index.html">AwesomeBiology</a></h3>
                 <div class="header-links-container">
                     <a href="../pages/history.html" class="header-link active">History</a>
                     <a href="../pages/nobelPrises.html" class="header-link">Nobel prises</a>
-                    <a href="../pages/education.html" class="header-link">Education</a>
+                    <a href="../pages/contacts.html" class="header-link">Contacts</a>
                 </div>
             </div>
-        </header>
+    </header>
 
-        <section class="hero-main-plot">
-            <div class="hero-main-plot-left-side">
-                <h1>What is biology and how it all has started?</h1>
-                <p>
-                    Do you want to know more about biology discoveries
-                    in centuries? Sign up to recieve new articles every week!
-                </p>
-                <button class="hero-main-plot-button">Sign up</button>
-            </div>
-            <div class="hero-main-plot-right-side">
-                <img src="../images/history.jpg" alt="Photo: A small boy in the museum watching other people and exhibition">
-            </div>
-        </section>        
-    </div>
-
-    <div class="main-information">
-        <h2>The earliest signs of biology were discovered in several places</h2>
-
-        <section class="main-information-images-container">
-            <div>
-                <img src="../images/egypt.jpg" alt="Photo: Ancient egypt pictures on walls">
-                <p>
-                   <strong>Ancient Egypt</strong>
-                   <br>
-                   (1600 BCE)
-                </p>
-            </div>
-            <div>
-                <img src="../images/mesopotamia.jpg" alt="Photo: A dark photo of old mesopotamian sculpture of a woman">
-                <p>
-                    <strong>Mesopotamia</strong>
-                    <br>
-                    (c.2112 - c.2004 BCE)
-                </p>
-            </div>
-            <div>
-                <img src="../images/china.jpg" alt="Photo: Double dragon bridge in China">
-                <p>
-                    <strong>China</strong>
-                    <br>
-                    (4th century BCE)
-                </p>
-            </div>
-            <div>
-                <img src="../images/india.jpg" alt="Photo: Victoria Memorial in Kolkata, India, on pink sunset">
-                <p>
-                    <strong>India</strong>
-                    <br>
-                    (1500 BCE)
-                </p>
-            </div>
-        </section>    
-        
+    <main class="main-information">
         <section class="main-information-locations">
+            <h2>The earliest signs of biology were discovered in several places</h2>
             <div class="locations">
-                <div>
-                    <p class="egypt">Ancient Egypt</p>
-                    <p class="egypt-description">
-                        Over a dozen <a href="https://en.wikipedia.org/wiki/Egyptian_medical_papyri" target="_blank">medical papyri</a> 
-                        have been preserved, most notably the <a href="https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus" target="_blank">Edwin Smith Papyrus</a> 
-                        (the oldest extant surgical handbook) and the <a href="https://en.wikipedia.org/wiki/Ebers_Papyrus" target="_blank">Ebers Papyrus</a>
-                        (a handbook of preparing and using materia medica for various diseases). Ancient Egypt is also known for developing 
-                        <a href="https://en.wikipedia.org/wiki/Embalming" target="_blank">embalming</a>, which was used for
-                        <a href="https://en.wikipedia.org/wiki/Mummy" target="_blank">mummification</a>, in order to preserve human remains and forestall decomposition.
-                    </p>
-                </div>
-                <div>
-                    <p class="mesopotamia">Mesopotamia</p>
-                    <p class="mesopotamia-description">
-                        <a href="https://en.wikipedia.org/wiki/Physiology" target="_blank">Animal physiology</a> was studied for divination, 
-                        including especially the anatomy of the liver, seen as an important organ in haruspicy. 
-                        <a href="https://en.wikipedia.org/wiki/Ethology" target="_blank">Animal behavior</a> too was studied for divinatory 
-                        purposes. Most information about the training and domestication of animals was probably transmitted 
-                        orally, but one text dealing with the training of horses has survived.
-                    </p>
-                </div>
-                <div>
-                    <p class="china">China</p>
-                    <p class="china-description">
-                        In ancient China, earlier conceptions can be found dispersed across several different disciplines, 
-                        including the work of <a href="https://en.wikipedia.org/wiki/Chinese_herbology" target="_blank">herbologists</a>, physicians, 
-                        alchemists, and philosophers. <a href="https://en.wikipedia.org/wiki/Taoism" target="_blank">The Taoist</a> tradition 
-                        of <a href="https://en.wikipedia.org/wiki/Chinese_alchemy" target="_blank"></a>Chinese alchemy, for example, emphasized health 
-                        (with the ultimate goal being the <a href="https://en.wikipedia.org/wiki/Elixir_of_life" target="_blank">elixir of life</a>). 
-                        Taoist philosophers also expressed ideas related to <a href="https://en.wikipedia.org/wiki/Evolution" target="_blank">evolution</a>, 
-                        such as denying the fixity of biological species and speculating that species had developed differing attributes in 
-                        response to differing environments.
-                    </p>
-                </div>
-                <div>
-                    <p class="india">India</p>
-                    <p class="india-description">
-                        One of the oldest organised systems of medicine is known from ancient India in the form of 
-                        <a href="https://en.wikipedia.org/wiki/Ayurveda" target="_blank">Ayurveda</a>, which originated from 
-                        <a href="https://en.wikipedia.org/wiki/Atharvaveda" target="_blank">Atharvaveda</a> (one of the four most ancient books 
-                        of Indian knowledge, wisdom and culture).One of the earliest Ayurvedic treatises was the 
-                        <a href="https://en.wikipedia.org/wiki/Sushruta_Samhita" target="_blank">Sushruta Samhita</a>, 
-                        an antient text about medicine. It was also an early <a href="https://en.wikipedia.org/wiki/Materia_medica" target="_blank">materia medica</a>, 
-                        describing 700 medicinal plants, 64 preparations from mineral sources, and 57 preparations based on animal sources.
-                    </p>
-                </div>
+                <figure>
+                    <img src="../images/egypt.jpg" alt="Photo: Ancient egypt pictures on walls">
+                    <figcaption>
+                        <p class="location-name">Ancient Egypt</p>
+                        <p class="location-description">
+                            Over a dozen <a href="https://en.wikipedia.org/wiki/Egyptian_medical_papyri" target="_blank">medical papyri</a> 
+                            have been preserved, most notably the <a href="https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus" target="_blank">Edwin Smith Papyrus</a> 
+                            (the oldest extant surgical handbook) and the <a href="https://en.wikipedia.org/wiki/Ebers_Papyrus" target="_blank">Ebers Papyrus</a>
+                            (a handbook of preparing and using materia medica for various diseases). Ancient Egypt is also known for developing 
+                            <a href="https://en.wikipedia.org/wiki/Embalming" target="_blank">embalming</a>, which was used for
+                            <a href="https://en.wikipedia.org/wiki/Mummy" target="_blank">mummification</a>, in order to preserve human remains and forestall decomposition.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/mesopotamia.jpg" alt="Photo: A dark photo of old mesopotamian sculpture of a woman">
+                    <figcaption>
+                        <p class="location-name">Mesopotamia</p>
+                        <p class="location-description">
+                            <a href="https://en.wikipedia.org/wiki/Physiology" target="_blank">Animal physiology</a> was studied for divination, 
+                            including especially the anatomy of the liver, seen as an important organ in haruspicy. 
+                            <a href="https://en.wikipedia.org/wiki/Ethology" target="_blank">Animal behavior</a> too was studied for divinatory 
+                            purposes. Most information about the training and domestication of animals was probably transmitted 
+                            orally, but one text dealing with the training of horses has survived.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/china.jpg" alt="Photo: Double dragon bridge in China">
+                    <figcaption>
+                        <p class="location-name">China</p>
+                        <p class="location-description">
+                            In ancient China, earlier conceptions can be found dispersed across several different disciplines, 
+                            including the work of <a href="https://en.wikipedia.org/wiki/Chinese_herbology" target="_blank">herbologists</a>, physicians, 
+                            alchemists, and philosophers. <a href="https://en.wikipedia.org/wiki/Taoism" target="_blank">The Taoist</a> tradition 
+                            of <a href="https://en.wikipedia.org/wiki/Chinese_alchemy" target="_blank"></a>Chinese alchemy, for example, emphasized health 
+                            (with the ultimate goal being the <a href="https://en.wikipedia.org/wiki/Elixir_of_life" target="_blank">elixir of life</a>). 
+                            Taoist philosophers also expressed ideas related to <a href="https://en.wikipedia.org/wiki/Evolution" target="_blank">evolution</a>, 
+                            such as denying the fixity of biological species and speculating that species had developed differing attributes in 
+                            response to differing environments.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/india.jpg" alt="Photo: Victoria Memorial in Kolkata, India, on pink sunset">
+                    <figcaption>
+                        <p class="location-name">India</p>
+                        <p class="location-description">
+                            One of the oldest organised systems of medicine is known from ancient India in the form of 
+                            <a href="https://en.wikipedia.org/wiki/Ayurveda" target="_blank">Ayurveda</a>, which originated from 
+                            <a href="https://en.wikipedia.org/wiki/Atharvaveda" target="_blank">Atharvaveda</a> (one of the four most ancient books 
+                            of Indian knowledge, wisdom and culture).One of the earliest Ayurvedic treatises was the 
+                            <a href="https://en.wikipedia.org/wiki/Sushruta_Samhita" target="_blank">Sushruta Samhita</a>, 
+                            an antient text about medicine. It was also an early <a href="https://en.wikipedia.org/wiki/Materia_medica" target="_blank">materia medica</a>, 
+                            describing 700 medicinal plants, 64 preparations from mineral sources, and 57 preparations based on animal sources.
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </section>
 
@@ -130,11 +90,9 @@
                 <h4>We've got your interest now?</h4>
                 <p>Sign up to recieve our articles by clicking that button right over there!</p>
             </div>  
-            <div>
-                <button>Sign up</button>
-            </div>  
-        </section>
-    </div>
+            <button>Sign up</button>
+        </section>        
+    </main>
 
     <footer>
         <h5>Copyright @ 2023 AwesomeBiology</h5>
