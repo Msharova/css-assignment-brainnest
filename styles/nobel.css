@@ -9,3 +9,31 @@ section.main-information-images-container div p strong a{
     color: var(--button_color);
     text-decoration: none;
 }
+main.main-information section.nobel-main-plot{
+    display: flex;
+    flex-direction: column;
+} 
+main.main-information section.nobel-main-plot img{
+    width: 1000px;
+    height: auto;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main.main-information section.nobel-main-plot h1{
+    text-align: center;
+    background-color: var(--dark-color);
+    color: var(--hero-secondary-text-color);
+    width: 1000px;
+    height: auto;
+    padding: 50px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+main.main-information section.main-information-locations h2.nobel-h2{
+  margin: 50px 400px;
+}
+main.main-information section.main-information-locations div.locations figure figcaption strong a{
+  text-decoration: none;
+  color: var(--button_color);
+}

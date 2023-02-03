@@ -1,0 +1,52 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+  @font-face {
+  font-family: RobotoLightItalic;
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
+  @font-face {
+  font-family: RobotoBlack;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+  @font-face {
+  font-family: RobotoLight;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+:root{
+  --dark-color: #1F2937;
+  --hero-main-text-color: #F9FAF8;
+  --hero-secondary-text-color: #E5E7EB;
+  --button_color: #3882F6;
+}
+main.main-information section.main-information-contacts {
+    margin: 50px 300px auto;
+    display: flex;
+    flex-direction: column;
+}
+main.main-information section.main-information-contacts h2{
+    font-size: 48px;
+    text-align: center;
+}
+main.main-information section.main-information-contacts div.contact-links{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+main.main-information section.main-information-contacts div.contact-links figure figcaption{
+    display: flex;
+    flex-direction: row;
+}
+main.main-information section.main-information-contacts div.contact-links figure figcaption p.contact-links-name{
+    font-size: 24px;
+    font-family: 'RobotoBlack';
+    margin: 20px 20px;
+}
+main.main-information section.main-information-contacts div.contact-links figure figcaption p.contact-links-description{
+    font-size: 24px;
+    font-family: 'RobotoBlack';
+    color: var(--button_color);
+    margin: 20px 20px;
+}
+

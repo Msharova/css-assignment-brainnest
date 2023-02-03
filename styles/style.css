@@ -1,40 +1,37 @@
-  @font-face {
-    font-family: RobotoRegular;
-    src: url(../fonts/Roboto-Regular.ttf);
-  }
-   @font-face {
-    font-family: RobotoLightItalic;
-    src: url(../fonts/Roboto-LightItalic.ttf);
-  }
-   @font-face {
-    font-family: RobotoBlack;
-    src: url(../fonts/Roboto-Black.ttf);
-  }
-   @font-face {
-    font-family: RobotoLight;
-    src: url(../fonts/Roboto-Light.ttf);
-  }
-  :root{
-    --dark-color: #1F2937;
-    --hero-main-text-color: #F9FAF8;
-    --hero-secondary-text-color: #E5E7EB;
-    --button_color: #3882F6;
-  }
+@font-face {
+font-family: RobotoRegular;
+src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+font-family: RobotoLightItalic;
+src: url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+font-family: RobotoBlack;
+src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+font-family: RobotoLight;
+src: url(../fonts/Roboto-Light.ttf);
+}
+:root{
+--dark-color: #1F2937;
+--hero-main-text-color: #F9FAF8;
+--hero-secondary-text-color: #E5E7EB;
+--button_color: #3882F6;
+}
 *{
     margin: 0 auto;
-    font-family: 'RobotoRegular', sans-serif;
-}
-header{
-    margin-bottom: 100px;
+    font-family: 'RobotoRegular';
 }
 h1{
-    font-family: 'RobotoBlack', sans-serif;
+    font-family: 'RobotoBlack';
     font-size: 48px;
     font-weight: bold;
     color: var(--hero-main-text-color);
 }
 h2{
-    font-family: 'RobotoBlack', sans-serif;
+    font-family: 'RobotoBlack';
 }
 h3{
     margin: 0 auto;
@@ -48,16 +45,11 @@ footer{
     padding: 40px 0;
 }
 footer h5{
-    font-family: 'RobotoLight', sans-serif;
+    font-family: 'RobotoLight';
 }
-.hero-main-plot p{
-    font-size: 18px;
-    color: var(--hero-secondary-text-color);
-}
-.hero{
+header.header{
     background-color: var(--dark-color);
-    padding: 15px 300px 125px 300px;
-    margin-bottom: 45px;
+    padding: 15px 300px;
 }
 .header-container{
     display: flex;
@@ -83,24 +75,27 @@ footer h5{
 .active{
     font-weight: bold;
 }
-.hero-main-plot{
+main.main-information section.hero-main-plot{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 45px;
+    background-color: var(--dark-color);
+    padding: 90px 300px 125px 300px;
 }
-.hero-main-plot-left-side{
+main.main-information section.hero-main-plot div.hero-main-plot-left-side{
     display: flex;
     flex-direction: column;  
     padding: 0;
     padding-right: 260px;
-    margin: 0;
     width: 50%;
     line-height: 1.4;
 }
-.hero-main-plot-left-side, .hero-main-plot-left-side h1 {
-    margin: 0;
+main.main-information section.hero-main-plot div.hero-main-plot-left-side p{
+    font-size: 18px;
+    color: var(--hero-secondary-text-color);
 }
-.hero-main-plot-left-side button{
+main.main-information section.hero-main-plot div.hero-main-plot-left-side button{
     margin-left: 0;
     margin-top: 10px;
     color: var(--hero-main-text-color);
@@ -109,73 +104,71 @@ footer h5{
     border: 1px solid var(--button_color);
     border-radius: 8px;
     font-size: 18px;
-    font-family: 'RobotoBlack', sans-serif;
+    font-family: 'RobotoBlack';
 }
-.hero-main-plot-left-side button:hover{
+main.main-information section.hero-main-plot div.hero-main-plot-left-side button:hover{
     color: var(--button_color);
     background-color: var(--hero-main-text-color);
-    border: 1 px solid var(--hero-main-text-color);
+    border: 1px solid var(--hero-main-text-color);
     transition: all 200ms ease-in-out;
 }
-.hero-main-plot-right-side{
-    margin: 0;
+main.main-information section.hero-main-plot img.hero-main-plot-right-side{
     width: 50%;
 }  
-.hero-main-plot-right-side img{
-    display: flex;    
-}
-.main-information h2{
+main.main-information section.main-information-content h2{
     text-align: center;
     font-size: 36px;
-    color: var(--dark-color);    
-    margin-bottom: 15px;
+    color: var(--dark-color);
+    margin-bottom: 30px;
 }
-.main-information-images-container{
-    display: flex;
-    justify-content: center;  
+main.main-information section.main-information-content div.main-information-images-container {
     margin: 0 300px 90px 300px; 
-    padding: 0 255px;       
+    padding: 0 255px;
+    display: flex;
+    justify-content: center;    
 }
-.main-information-images-container div{
+main.main-information section.main-information-content div.main-information-images-container figure{
     margin: 0;   
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 0 100px;
     text-align: center;
 }
-.main-information-images-container div img{    
+main.main-information section.main-information-content div.main-information-images-container figure img{    
     border: 3px solid var(--button_color);
     border-radius: 10px;
     width: 150px;
     height: auto;
 }
-.main-information-images-container div img:hover{    
-    transform: scale(1.1);
+main.main-information section.main-information-content div.main-information-images-container figure img:hover{    
+    transform: scale(1.2);
     transition: all 200ms ease;
 }
-.main-information-images-container div p{    
+main.main-information section.main-information-content div.main-information-images-container figure figcaption p{    
     margin-top: 5px;
     color: var(--dark-color);
 }
-.main-information-quote{
+section.main-information-quote{
     background-color: var(--hero-secondary-text-color);    
     padding: 100px 550px;
     margin-bottom: 90px;
-}
-.main-information-quote p.quote{
     color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+}
+section.main-information-quote blockquote.quote{
     font-size: 36px;
-    font-family: 'RobotoLightItalic', sans-serif;
+    font-family: 'RobotoLightItalic';
     text-align: start;
     margin-bottom: 20px;
 } 
-.main-information-quote p.signature{
-    color: var(--dark-color);
+section.main-information-quote cite.signature{
     font-weight: bold;
     font-size: 20px;
-    text-align: end;
+    margin-right: 0;
+    font-style: normal;
 }
-.main-information-call-for-action{
+section.main-information-call-for-action{
     background-color: var(--button_color);
     color: var(--hero-main-text-color);
     border-radius: 9px;
@@ -186,14 +179,14 @@ footer h5{
     display: flex;
     align-items: center;
 }
-.main-information-call-for-action h4,
-.main-information-call-for-action p {
+section.main-information-call-for-action div h4,
+section.main-information-call-for-action div p {
     margin: 0;
 }
-.main-information-call-for-action p{
+section.main-information-call-for-action p{
     font-size: 18px;
 }
-.main-information-call-for-action button{
+section.main-information-call-for-action button{
     color: var(--hero-main-text-color);
     background-color: var(--button_color);    
     padding: 8px 30px;
@@ -201,43 +194,11 @@ footer h5{
     border-radius: 7px;
     line-height: 1;
     font-size: 15px;
-    font-family: 'RobotoBlack', sans-serif;
+    font-family: 'RobotoBlack';
 }
-.main-information-call-for-action button:hover{
+section.main-information-call-for-action button:hover{
     color: var(--button_color);
     background-color: var(--hero-main-text-color);
-    border: 1 px solid var(--hero-main-text-color);
+    border: 2px solid var(--hero-main-text-color);
     transition: all 200ms ease-in-out;
-}
-@media (max-width: 900px) {
-    .hero{
-        padding: 15px 50px 125px 50px;
-    }
-    .hero-main-plot-left-side{
-        padding: 0;
-    }
-    .hero-main-plot-left-side h1{
-        font-size: 35px;
-}
-    .hero-main-plot-right-side{
-        width: 100%;
-        height: auto;
-}
-    .main-information-images-container{
-        margin: 0 50px 90px 50px; 
-}
-    .main-information-quote{
-        padding: 100px 50px;
-}
-    .main-information-call-for-action{
-        margin: 0 50px 90px 50px;
-        padding: 50px 50px;
-        font-size: 18px;
-}
-.main-information-quote p.quote{
-    font-size: 26px;
-} 
-.main-information-quote p.signature{
-    font-size: 15px;
-}
 }
